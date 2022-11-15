@@ -1,5 +1,8 @@
 .root {
-    background-color:var(--background-color-dark);
+    background-color:var(--background-color_dark);
+    color: var(--text-color_bright);
+    width: 1280px;
 
-    --background-color-dark: #2A2C2F;
+    --background-color_dark: #2A2C2F;
+    --text-color_bright: #fff;
 }
