@@ -3,7 +3,7 @@
     color: var(--text-color_bright);
     width: 1280px;
     border: 1px solid green;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 
     --background-color_dark: #2A2C2F;
