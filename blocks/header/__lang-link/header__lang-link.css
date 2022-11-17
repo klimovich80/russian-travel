@@ -3,4 +3,14 @@
   margin: 0;
   padding: 0;
   color: var(--text-color_bright);
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17em;
+}
+@media (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.1em;
+  }
 }
