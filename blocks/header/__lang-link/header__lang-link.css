@@ -1,0 +1,6 @@
+.header__lang-link {
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color_bright);
+}
