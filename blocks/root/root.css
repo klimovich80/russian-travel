@@ -4,9 +4,18 @@
     max-width: 1280px;
     border: 1px solid green;
     margin: 0 auto;
-    padding: 0;
+    padding: 24px 48px;
     text-rendering: optimizeLegibility;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(3, minmax(min_content, max-content));
 
     --background-color_dark: #2A2C2F;
     --text-color_bright: #fff;
+}
+
+@media (max-width: 320px){
+    .root {
+        padding: 16px 16px 24px;
+    }
 }
