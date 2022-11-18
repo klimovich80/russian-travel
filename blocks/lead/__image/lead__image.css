@@ -1,0 +1,8 @@
+.lead__image {
+    border: 1px solid red;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: url(/images/nizhyaya-polka.jpg);
+    background-size:100%, cover;
+}
