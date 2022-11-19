@@ -1,8 +1,9 @@
 .lead__roadmap-vector {
   border: 1px solid white;
-  background: url(/images/roadmap.svg) no-repeat;
-  width: 80%;
-  height: 300px;
   position: absolute;
-  top: 20%;
+  align-self: center;
+  max-width: 100%;
+  top: 27%;
+  margin: 0;
+  padding: 0;
 }
