@@ -4,13 +4,19 @@
     max-width: 1280px;
     border: 1px solid green;
     margin: 0 auto;
-    padding: 24px 48px;
+    padding: 28px 48px 24px;
     text-rendering: optimizeLegibility;
     display: flex;
     flex-direction: column;
 
     --background-color_dark: #2A2C2F;
     --text-color_bright: #fff;
+}
+
+@media (max-width: 768px){
+    .root {
+        padding: 28px 24px 24px;
+    }
 }
 
 @media (max-width: 320px){
