@@ -3,6 +3,7 @@
     position: relative;
     margin: 0;
     padding: 0;
-    background: url(/images/nizhyaya-polka.jpg);
-    background-size:100%, cover;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
 }
