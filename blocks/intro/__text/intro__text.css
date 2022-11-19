@@ -1,0 +1,15 @@
+.intro__text {
+  border: 1px solid red;
+  margin: 0;
+  padding: 40px 0 33px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.863em;
+}
+
+@media (max-width: 320px){
+    .intro__text {
+        padding-bottom: 34px;
+    }
+}
