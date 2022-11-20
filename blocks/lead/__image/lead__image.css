@@ -3,7 +3,6 @@
     position: relative;
     margin: 0;
     padding: 0;
-    object-fit: contain;
     display: flex;
     flex-direction: column;
 }
