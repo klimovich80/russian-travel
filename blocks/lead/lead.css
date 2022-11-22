@@ -1,8 +1,12 @@
 .lead {
-    border: 1px solid red;
-    margin: 0 auto;
-    padding: 0;
-    max-width: 984px;
-    display: flex;
-    flex-direction: column;
+  border: 1px solid red;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media max-width{} {
+
 }

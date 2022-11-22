@@ -6,12 +6,13 @@
   font-weight: 900;
   font-size: 6rem;
   line-height: 1.04em;
-  max-width: 100%;
+  max-width: 720px;
 }
- @media (max-width: 320px) {
-   .lead__title {
-     padding: 0 0 16px;
-     font-size: 2.5rem;
-     line-height: 1.1em;
-   }
- }
+@media (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+    padding: 0 0 16px;
+    font-size: 2.5rem;
+    line-height: 1.1em;
+  }
+}
