@@ -30,4 +30,6 @@
 @import url(/blocks/places/__paragraph/places__paragraph.css);
 @import url(/blocks/places/__link/places__link.css);
 @import url(/blocks/cover/cover.css);
+@import url(/blocks/cover/__background/cover__background.css);
+@import url(/blocks/cover/__link/cover__link.css);
 @import url(/blocks/footer/footer.css);

@@ -5,10 +5,26 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  max-width: 1184px;
 }
 
 @media (max-width: 1024px) {
   .header {
+    max-width: 928px;
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    max-width: 288px;
     padding-bottom: 48px;
   }
 }

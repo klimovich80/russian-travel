@@ -1,0 +1,8 @@
+.cover__link {
+  display: block;
+  text-decoration: none;
+  padding: 20px 16px;
+}
+.cover__link:hover {
+  background: rgba(42, 44, 47, .5);
+}

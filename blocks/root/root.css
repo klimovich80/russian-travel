@@ -6,9 +6,8 @@
     margin: 0 auto;
     padding: 28px 48px 24px;
     text-rendering: optimizeLegibility;
-    display: flex;
-    flex-direction: column;
-
+    display: grid;
+    justify-content: center;
     --background-color_dark: #2A2C2F;
     --text-color_bright: #fff;
 }
