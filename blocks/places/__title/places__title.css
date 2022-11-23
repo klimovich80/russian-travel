@@ -6,6 +6,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  letter-spacing: 2px;
   grid-area: title;
   max-width: 460px;
 }
@@ -26,6 +27,7 @@
 
 @media (max-width: 320px) {
   .places__title {
+    padding-bottom: 32px;
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;

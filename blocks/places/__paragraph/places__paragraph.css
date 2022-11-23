@@ -4,6 +4,10 @@
   padding: 0;
   grid-area: auto;
   max-width: 484px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
 }
 
 @media (max-width: 1024px) {
@@ -14,12 +18,14 @@
 
 @media (max-width: 768px) {
   .places__paragraph {
+    font-size: 16px;
     max-width: 352px;
   }
 }
 
 @media (max-width: 320px) {
   .places__paragraph {
+    font-size: 16px;
     max-width: 288px;
   }
 }

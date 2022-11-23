@@ -1,6 +1,9 @@
-.link:hover {
-  opacity: 0.8;
+.link {
   color: var(--text-color_bright);
   text-decoration: none;
   list-style: none;
+}
+
+.link:hover {
+  opacity: 0.8;
 }
