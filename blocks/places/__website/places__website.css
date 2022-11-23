@@ -1,9 +1,19 @@
 .places__website {
-    border: 1px solid red;
-    margin: 0;
-    padding: 0;
-    grid-area: website;
-    display: flex;
-    flex-direction: column-reverse;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  grid-area: website;
+  max-width: 456px;
+}
 
+@media (max-width: 768px) {
+  .places__website {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__website {
+    max-width: 288px;
+  }
 }

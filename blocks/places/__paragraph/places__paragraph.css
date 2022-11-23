@@ -1,5 +1,25 @@
 .places__paragraph {
-    border: 1px solid red;
-    margin: 0;
-    padding: 0;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  grid-area: auto;
+  max-width: 484px;
+}
+
+@media (max-width: 1024px) {
+  .places__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places__paragraph {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__paragraph {
+    max-width: 288px;
+  }
 }
