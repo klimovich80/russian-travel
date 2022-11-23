@@ -3,12 +3,8 @@
   margin: 0 auto;
   padding: 0;
   list-style: none;
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
-  grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
-  grid-template-areas:
-    "title url"
-    "picture paragraph"
-    "picture paragraph";
-    column-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, max-content));
+  column-gap: 40px;
 }
