@@ -1,15 +1,14 @@
 .places__link {
-  border: 1px solid red;
   margin: 0;
   padding: 12px 0 48px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
 }
 
-@media (max-width: 320px){
-  .places__link{
+@media (max-width: 320px) {
+  .places__link {
     padding-bottom: 32px;
   }
 }

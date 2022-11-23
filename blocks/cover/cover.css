@@ -1,5 +1,10 @@
 .cover {
   border: 1px solid red;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  background-image: url(/images/trainz.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  aspect-ratio: 4/3;
 }
