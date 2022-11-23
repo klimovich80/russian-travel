@@ -1,7 +1,7 @@
 .places__paragraph {
   border: 1px solid red;
   margin: 0;
-  padding: 0;
+  padding: 0 0 26px;
   grid-area: auto;
   max-width: 484px;
   font-family: "Inter";
