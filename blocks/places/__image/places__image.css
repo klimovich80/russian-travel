@@ -2,6 +2,22 @@
   border: 1px solid red;
   margin: 0;
   padding: 0;
-  max-width: 480px;
-  grid-area: image;
 }
+
+/* @media (max-width: 1024px) {
+  .places__title {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places__title {
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__title {
+    max-width: 288px;
+  }
+} */
