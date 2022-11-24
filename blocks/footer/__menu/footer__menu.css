@@ -1,0 +1,7 @@
+.footer__menu {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
