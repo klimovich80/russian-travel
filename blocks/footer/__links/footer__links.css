@@ -1,7 +1,13 @@
 .footer__links {
-  border: 1px solid red;
+  border: 1px solid blue;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-evenly;
+  gap: 18px;
+}
+
+@media (max-width: 320px) {
+  .footer__links {
+    flex-direction: column;
+  }
 }
