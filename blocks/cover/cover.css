@@ -2,9 +2,9 @@
   border: 1px solid red;
   margin: 0 auto;
   padding: 0;
-  aspect-ratio: 4/3;
+  aspect-ratio: 8/5;
   background-image: url(/images/trainz.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
 }

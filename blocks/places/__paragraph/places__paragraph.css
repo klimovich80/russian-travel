@@ -7,7 +7,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  grid-area: paragraph;
+  text-decoration: underline;
 }
 
 @media (max-width: 1024px) {

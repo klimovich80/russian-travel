@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   width: 176px;
-  height: 52px;
+  aspect-ratio: 44/13;
   background: url(/images/logo.svg) 0 0 no-repeat;
 }
 
 @media (max-width: 320px) {
-    .header__logo{
-        width: 142px;
-        height: 42px;
-    }
+  .header__logo {
+    width: 142px;
+    aspect-ratio: 71/21;
+  }
 }

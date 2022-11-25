@@ -2,7 +2,6 @@
     background:var(--background-color_dark);
     color: var(--text-color_bright);
     max-width: 1280px;
-    border: 1px solid green;
     margin: 0 auto;
     padding: 28px 48px 24px;
     text-rendering: optimizeLegibility;
