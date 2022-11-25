@@ -23,7 +23,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .places__place {
     grid-template-areas:
       "title"
