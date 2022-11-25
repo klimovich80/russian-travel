@@ -4,28 +4,28 @@
   padding: 0;
   overflow: hidden;
   display: grid;
-  justify-content: center;
-  grid-template-columns:repeat(auto-fill, 284px);
+  justify-items: center;
+  grid-template-columns:repeat(auto-fill, minmax(284px, 1fr));
   gap: 1rem;
 }
 
 @media (max-width: 1024px){
   .photo-grid {
-    grid-template-columns:repeat(auto-fill, 300px);
-    gap: 14px;
+    grid-template-columns:repeat(auto-fill,minmax(352px, 1fr));
+    gap: .875rem;
   }
 }
 
 @media (max-width: 768px){
   .photo-grid {
-    grid-template-columns:repeat(auto-fill, 352px);
+    grid-template-columns:repeat(auto-fill,minmax(352px, 1fr));
     gap: 1rem;
   }
 }
 
 @media (max-width: 320px){
   .photo-grid {
-    grid-template-columns:repeat(auto-fill, 288px);
-    gap: 12px;
+    grid-template-columns:repeat(auto-fill,minmax(288px, 1fr));
+    gap: .75rem;
   }
 }
