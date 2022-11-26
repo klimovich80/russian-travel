@@ -1,4 +1,5 @@
 .root {
+  border: 1px solid green;
   box-sizing: border-box;
   background: var(--background-color_dark);
   color: var(--text-color_bright);

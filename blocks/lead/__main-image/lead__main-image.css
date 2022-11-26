@@ -14,13 +14,11 @@
 @media (max-width: 768px) {
   .lead__main-image {
     max-width: 768px;
-    transform: translateX(-24px);
   }
 }
 
 @media (max-width: 320px) {
   .lead__main-image {
     max-width: 320px;
-    transform: translateX(-16px);
   }
 }

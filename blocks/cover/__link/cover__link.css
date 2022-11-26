@@ -10,8 +10,9 @@
   justify-content: center;
   align-items: center;
   color: var(--text-color__bright);
-  max-width: 100%;
 }
 .cover__link:hover {
   background: rgba(42, 44, 47, 0.8);
 }
+
+
