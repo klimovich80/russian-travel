@@ -1,5 +1,4 @@
 .cover {
-  border: 1px solid red;
   margin: 0 auto;
   padding: 0;
   aspect-ratio: 8/5;
@@ -13,5 +12,19 @@
   .cover {
     min-height: 640px;
     transform: translateX(-48px);
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+    transform: translateX(-24px);
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    min-height: 220px;
+    transform: translateX(-16px);
   }
 }
