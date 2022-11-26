@@ -11,6 +11,10 @@
     justify-content: center;
 }
 
+.places__place:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 1024px) {
   .places__place {
     column-gap: 32px;
