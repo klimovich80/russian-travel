@@ -1,4 +1,6 @@
 .places__place {
+  border: 1px solid red
+  ;
   margin: 0 auto;
   padding: 0 0 93px;
   list-style: none;
