@@ -1,4 +1,5 @@
 .places__website {
+  border: 1px solid red;
   margin: 0;
   padding: 0 0 48px;
   grid-area: website;

@@ -1,15 +1,15 @@
 .places__title {
+  border: 1px solid red;
   margin: 0;
   padding: 0 0 48px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;
-  line-height: 1.055em;
-  letter-spacing: 1.5px;
+  line-height: 1.06em;
+  /* letter-spacing: 1.5px; */
   grid-area: title;
   max-width: 460px;
-  justify-self: stretch;
+  letter-spacing: 1.5px;
 }
 
 @media (max-width: 1024px) {
@@ -22,8 +22,7 @@
   .places__title {
     max-width: 340px;
     font-size: 2.625rem;
-    line-height: 1.095em;
-    letter-spacing: 0;
+    line-height: 1.1em;
   }
 }
 
@@ -32,7 +31,7 @@
     padding-bottom: 32px;
     max-width: 288px;
     font-size: 2rem;
-    line-height: 1.094em;
+    line-height: 1.09em;
     padding-left: 16px;
   }
 }

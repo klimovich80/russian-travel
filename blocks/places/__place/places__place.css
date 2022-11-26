@@ -8,7 +8,7 @@
   grid-template-areas:
     "title website"
     "image paragraph";
-  justify-content: center;
+    justify-content: center;
 }
 
 .places__place:last-child {
