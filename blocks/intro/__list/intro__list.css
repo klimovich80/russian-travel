@@ -1,9 +1,12 @@
 .intro__list {
+    border: 1px solid red;
     margin: 0;
     padding: 0;
     list-style: none;
     font-family: 'Inter';
+    font-style: normal;
     font-weight: 400;
     font-size: .75rem;
     line-height: 1.5em;
+    max-width: 690px;
 }
