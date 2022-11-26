@@ -4,6 +4,7 @@
   max-height: 460px;
   grid-area: image;
   aspect-ratio: 1/1;
+  align-self: center;
 }
 
 @media (max-width: 1024px) {
@@ -21,7 +22,6 @@
 @media (max-width: 320px) {
   .places__image {
     max-height: 320px;
-    transform: translateX(-16px);
     padding-bottom: 32px;
   }
 }
