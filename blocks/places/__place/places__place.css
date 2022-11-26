@@ -1,9 +1,9 @@
 .places__place {
   margin: 0 auto;
-  padding: 0 0 93px;
+  padding: 0 0 80px;
   list-style: none;
   display: grid;
-  column-gap: 50px;
+  column-gap: 40px;
   max-width: 100%;
   grid-template-areas:
     "title website"
