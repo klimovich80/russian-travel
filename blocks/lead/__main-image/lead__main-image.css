@@ -1,16 +1,26 @@
 .lead__main-image {
-    margin: 64px 0 8px;
-    padding: 0;
+  padding: 0;
+  margin: 0 auto;
+  aspect-ratio: 8/5;
+  max-width: 984px;
 }
 
 @media (max-width: 1024px) {
-    .lead__main-image {
-        margin: 56px 0 8px;
-    }
+  .lead__main-image {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__main-image {
+    max-width: 768px;
+    transform: translateX(-24px);
+  }
 }
 
 @media (max-width: 320px) {
-    .lead__main-image {
-        margin: 40px 0 8px;
-    }
+  .lead__main-image {
+    max-width: 320px;
+    transform: translateX(-16px);
+  }
 }
