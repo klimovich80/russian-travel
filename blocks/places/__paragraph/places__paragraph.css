@@ -3,6 +3,7 @@
   padding: 0;
   grid-area: auto;
   max-width: 484px;
+  justify-self: center;
 }
 
 @media (max-width: 1024px) {
