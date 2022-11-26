@@ -1,6 +1,6 @@
 .places__website {
   margin: 0;
-  padding: 0;
+  padding: 0 0 48px;
   grid-area: website;
   max-width: 456px;
   display: flex;
@@ -18,5 +18,6 @@
 @media (max-width: 320px) {
   .places__website {
     max-width: 288px;
+    padding-bottom: 32px;
   }
 }

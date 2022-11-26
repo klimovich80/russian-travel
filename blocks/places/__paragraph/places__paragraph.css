@@ -1,13 +1,8 @@
 .places__paragraph {
   margin: 0;
-  padding: 0 0 26px;
+  padding: 0;
   grid-area: auto;
   max-width: 484px;
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 163%;
-  text-decoration: underline;
 }
 
 @media (max-width: 1024px) {
@@ -18,14 +13,14 @@
 
 @media (max-width: 768px) {
   .places__paragraph {
-    font-size: 16px;
+    font-size: 1rem;
     max-width: 352px;
   }
 }
 
 @media (max-width: 600px) {
   .places__paragraph {
-    font-size: 16px;
+    font-size: 1rem;
     max-width: 100%;
   }
 }
