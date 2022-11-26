@@ -18,6 +18,6 @@
 @media (max-width: 320px) {
   .places__website {
     max-width: 288px;
-    padding-bottom: 32px;
+    padding: 0;
   }
 }

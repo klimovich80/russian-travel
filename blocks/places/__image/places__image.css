@@ -21,7 +21,7 @@
 @media (max-width: 320px) {
   .places__image {
     max-height: 320px;
-    /* transform: translateX(-16px); */
+    transform: translateX(-16px);
     padding-bottom: 32px;
   }
 }
