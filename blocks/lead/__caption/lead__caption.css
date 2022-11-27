@@ -1,6 +1,5 @@
 .lead__caption {
   padding: 8px 0 0;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 0.625rem;
@@ -18,7 +17,6 @@
 
 @media (max-width: 320px) {
   .lead__caption {
-    letter-spacing: 1.8px;
     padding-top: 4px;
     padding-left: 16px;
   }

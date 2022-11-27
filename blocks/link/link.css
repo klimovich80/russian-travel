@@ -1,7 +1,6 @@
 .link {
   color: var(--text-color_bright);
   text-decoration: none;
-  list-style: none;
 }
 
 .link:hover {

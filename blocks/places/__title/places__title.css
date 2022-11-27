@@ -1,12 +1,10 @@
 .places__title {
   margin: 0;
   padding: 0 0 48px;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 1.06em;
-  letter-spacing: 1.5px;
   grid-area: title;
   max-width: 460px;
 }

@@ -4,6 +4,10 @@
   grid-area: auto;
   max-width: 484px;
   justify-self: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.63em;
 }
 
 @media (max-width: 1024px) {

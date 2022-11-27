@@ -12,7 +12,7 @@
 
 **Технологии**
 
-HTML5
+* HTML5
 * css
 * Flexbox
 * Grid Layout
