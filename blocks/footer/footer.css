@@ -5,12 +5,12 @@
 
 @media (max-width: 768px) {
   .footer {
-      padding-top: 88px;
+    padding-top: 88px;
   }
 }
 
 @media (max-width: 320px) {
   .footer {
-      padding-top: 64px;
+    padding-top: 64px;
   }
 }
