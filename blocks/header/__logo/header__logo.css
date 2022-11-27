@@ -3,7 +3,7 @@
   padding: 0;
   width: 176px;
   aspect-ratio: 44/13;
-  background: url(/images/logo.svg) 0 0 no-repeat;
+  background: url(images/logo.svg) 0 0 no-repeat;
 }
 
 @media (max-width: 320px) {

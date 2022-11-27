@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   aspect-ratio: 8/5;
-  background: url(/images/trainz.png) center;
+  background: url(images/trainz.png) center;
   background-size: cover;
   min-height: 740px;
 }
