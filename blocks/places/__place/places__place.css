@@ -21,14 +21,14 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .places__place {
     column-gap: 28px;
     margin-bottom: 73px;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 565px) {
   .places__place {
     grid-template-areas:
       "title"

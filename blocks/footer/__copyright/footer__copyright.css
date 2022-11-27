@@ -4,13 +4,13 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 114%;
+  font-size: 0.875rem;
+  line-height: 1.14em;
 }
 
 @media (max-width: 320px) {
   .footer__copyright {
-    font-size: 14px;
-    line-height: 100%;
+    font-size: 0.875rem;
+    line-height: 1em;
   }
 }

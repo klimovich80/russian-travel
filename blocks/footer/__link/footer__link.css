@@ -1,16 +1,16 @@
 .footer__link {
   margin: 0;
   padding: 0;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 112%;
+  font-size: 1rem;
+  line-height: 1.12em;
 }
 
 @media (max-width: 320px) {
   .footer__link {
-    font-size: 24px;
-    line-height: 100%;
+    font-size: 1.5rem;
+    line-height: 1em;
   }
 }

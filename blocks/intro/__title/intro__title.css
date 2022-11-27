@@ -5,13 +5,13 @@
     font-style: normal;
     font-size: 900;
     font-size: 3.375rem;
-    line-height: 1.074em;
+    line-height: 1.07em;
     max-width: 690px;
 }
 
 @media (max-width: 320px){
     .intro__title {
         font-size: 2rem;
-        font-weight: 1.094em;
+        font-weight: 1.09em;
     }
 }

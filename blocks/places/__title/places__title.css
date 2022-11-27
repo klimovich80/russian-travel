@@ -1,12 +1,12 @@
 .places__title {
-  border: 1px solid red;
   margin: 0;
   padding: 0 0 48px;
-  font-family: "Inter";
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 1.06em;
-  /* letter-spacing: 1.5px; */
+  letter-spacing: 1.5px;
   grid-area: title;
   max-width: 460px;
   letter-spacing: 1.5px;
@@ -18,7 +18,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .places__title {
     max-width: 340px;
     font-size: 2.625rem;
@@ -26,7 +26,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 684px) {
   .places__title {
     padding-bottom: 32px;
     max-width: 288px;

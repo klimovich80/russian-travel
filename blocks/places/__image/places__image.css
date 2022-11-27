@@ -1,17 +1,21 @@
 .places__image {
-  border: 1px solid red;
   margin: 0 auto;
   padding: 0;
   max-height: 460px;
   grid-area: image;
   aspect-ratio: 1/1;
-  /* align-self: center; trying it 4 every solution */
   align-self: baseline;
 }
 
 @media (max-width: 1024px) {
   .places__image {
     max-height: 440px;
+  }
+}
+
+@media (max-width: 950px) {
+  .places__image {
+    max-height: 390px;
   }
 }
 
@@ -22,10 +26,10 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 732px) {
   .places__image {
     max-height: 320px;
     padding-bottom: 32px;
-    align-self: center
+    align-self: center;
   }
 }

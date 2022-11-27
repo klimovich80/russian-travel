@@ -2,7 +2,8 @@
   text-align: center;
   margin: 0 auto;
   padding: 0 0 64px;
-  font-family: "inter";
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 400;
   font-size: 1.875rem;
   line-height: 1.2em;
@@ -12,12 +13,6 @@
 @media (max-width: 1024px) {
   .lead__subtitle {
     padding-bottom: 56px;
-  }
-}
-
-@media (max-width: 768px) {
-  .lead__subtitle {
-    /* padding-bottom: 40px; */
   }
 }
 

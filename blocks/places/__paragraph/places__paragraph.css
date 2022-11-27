@@ -1,5 +1,4 @@
 .places__paragraph {
-  border: 1px solid white;
   margin: 0;
   padding: 0;
   grid-area: auto;
@@ -13,17 +12,17 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .places__paragraph {
     font-size: 1rem;
     max-width: 352px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 684px) {
   .places__paragraph {
     font-size: 1rem;
-    max-width: 100%;
+    max-width: 320px;
   }
 }
 
