@@ -21,7 +21,7 @@ HTML5
 
 **Ссылка**
 
-[Ссылка на проект](https://mail.ru/) 
+[Ссылка на проект](https://klimovich80.github.io/russian-travel/index.html) 
 
 Наслаждайтесь!
 
