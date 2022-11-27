@@ -6,6 +6,7 @@
   min-width: 320px;
   margin: 0 auto;
   padding: 28px 48px 24px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   --background-color_dark: #2a2c2f;
   --text-color_bright: #fff;
 }

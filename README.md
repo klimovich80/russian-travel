@@ -17,6 +17,7 @@ HTML5
 * Flexbox
 * Grid Layout
 * Adaptive
+* BEM
 
 **Ссылка**
 
