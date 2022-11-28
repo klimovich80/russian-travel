@@ -1,19 +1,20 @@
 .cover__title {
+  border: 1px solid yellow;
   text-align: center;
   margin: 0;
   padding: 0 0 32px;
   font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;
-  line-height: 106%;
+  line-height: 1.06em;
   max-width: 560px;
 }
 
 @media (max-width: 565px) {
   .cover__title {
-    max-width: 100%;
+    max-width: 288px;
     font-size: 2rem;
-    line-height: 109%;
+    line-height: 1.09em;
     padding: 0 0 16px;
   }
 }

@@ -1,14 +1,14 @@
 .cover__link {
+  border: 1px solid blue;
   margin: 0;
   padding: 0;
   text-decoration: none;
   background: rgba(42, 44, 47, 0.3);
-  aspect-ratio: 8/5;
+  color: var(--text-color__bright);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: var(--text-color__bright);
 }
 
 .cover__link:hover {
