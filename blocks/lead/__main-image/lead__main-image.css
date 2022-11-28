@@ -1,4 +1,5 @@
 .lead__main-image {
+  border: 1px solid  blue;
   padding: 0;
   margin: 0 auto;
   aspect-ratio: 8/5;
