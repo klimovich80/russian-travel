@@ -8,7 +8,7 @@
   align-self: center;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1279px) {
   .photo-grid {
     max-width: 928px;
     gap: 14px;

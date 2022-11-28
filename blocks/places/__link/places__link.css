@@ -7,9 +7,3 @@
   line-height: 1.22em;
   text-decoration: underline;
 }
-
-@media (max-width: 320px) {
-  .places__link {
-    padding-bottom: 32px;
-  }
-}

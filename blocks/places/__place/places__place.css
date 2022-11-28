@@ -1,46 +1,45 @@
 .places__place {
-  margin: 0 auto 80px;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
   display: grid;
-  -moz-column-gap: 40px;
-  column-gap: 40px;
   max-width: 100%;
+  grid-template-columns: 460px 484px;
   grid-template-areas:
     "title website"
     "image paragraph";
   justify-content: center;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+  row-gap: 48px;
 }
 
-.places__place:last-child {
-  margin-bottom: 0;
-}
-
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
   .places__place {
+    grid-template-columns: 440px 456px;
     -moz-column-gap: 32px;
     column-gap: 32px;
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1023px) {
   .places__place {
+    grid-template-columns: 340px 352px;
     -moz-column-gap: 28px;
     column-gap: 28px;
-    margin-bottom: 73px;
   }
 }
 
-@media (max-width: 565px) {
+@media (max-width: 767px) {
   .places__place {
+    grid-template-columns: 16px 288px 16px;
     grid-template-areas:
-      "title"
-      "website"
-      "image"
-      "paragraph";
-    -moz-column-gap: 32px;
-    column-gap: 32px;
-    margin-bottom: 50px;
-    max-width: 288px;
+      ". title ."
+      ". website ."
+      "image image image"
+      ". paragraph .";
+    -moz-column-gap: 0;
+    column-gap: 0;
+    row-gap: 32px;
   }
 }

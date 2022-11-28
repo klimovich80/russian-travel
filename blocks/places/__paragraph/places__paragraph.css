@@ -1,8 +1,8 @@
 .places__paragraph {
   margin: 0;
   padding: 0;
-  grid-area: auto;
-  max-width: 484px;
+  grid-area: paragraph;
+  max-width: 100%;
   justify-self: center;
   font-style: normal;
   font-weight: 400;
@@ -10,28 +10,8 @@
   line-height: 1.63em;
 }
 
-@media (max-width: 1024px) {
-  .places__paragraph {
-    max-width: 456px;
-  }
-}
-
-@media (max-width: 950px) {
-  .places__paragraph {
-    font-size: 1rem;
-    max-width: 352px;
-  }
-}
-
-@media (max-width: 684px) {
-  .places__paragraph {
-    font-size: 1rem;
-    max-width: 320px;
-  }
-}
-
 @media (max-width: 320px) {
   .places__paragraph {
-    max-width: 288px;
+    font-size: 1rem;
   }
 }
