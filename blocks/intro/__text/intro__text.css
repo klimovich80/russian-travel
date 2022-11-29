@@ -2,21 +2,8 @@
   max-width: 100%;
   margin: 0;
   padding: 40px 0 33px;
-  padding-right: calc(100% - 690px);
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 163%;
-}
-
-@media (max-width: 768px) {
-  .intro__text {
-    padding-right: 0;
-  }
-}
-
-@media (max-width: 320px) {
-  .intro__text {
-    padding-bottom: 34px;
-  }
 }

@@ -1,24 +1,21 @@
 .intro {
   font-family: "Inter", Arial, sans-serif;
   max-width: 984px;
-  margin: 0 auto;
-  text-align: left;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 690px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
   .intro {
-    max-width: 928px;
+    grid-template-columns: 720px;
+    justify-content: center;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .intro {
-    max-width: 720px;
-  }
-}
-
-@media (max-width: 320px) {
-  .intro {
-    max-width: 288px;
+    grid-template-columns: 288px;
   }
 }
