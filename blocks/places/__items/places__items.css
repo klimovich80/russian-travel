@@ -8,13 +8,13 @@
 }
 
 @media (max-width: 768px) {
-   .places__items {
-     gap: 72px;
-   }
- }
+  .places__items {
+    gap: 72px;
+  }
+}
 
- @media (max-width: 320px) {
-   .places__items {
-     gap: 50px;
-   }
- }
+@media (max-width: 320px) {
+  .places__items {
+    gap: 50px;
+  }
+}

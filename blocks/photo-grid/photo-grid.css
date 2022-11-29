@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .photo-grid {
     max-width: 288px;
     gap: 12px;
