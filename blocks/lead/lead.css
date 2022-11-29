@@ -5,10 +5,10 @@
   justify-self: center;
   display: grid;
   grid-template-columns: 984px;
-  grid-template-areas: 
-  "title"
-  "subtitle"
-  "image";
+  grid-template-areas:
+    "title"
+    "subtitle"
+    "image";
   justify-items: center;
 }
 
@@ -21,16 +21,15 @@
 @media (max-width: 960px) {
   .lead {
     grid-template-columns: 24px 720px 24px;
-    grid-template-areas: 
-  ". title ."
-  ". subtitle ."
-  "image image image";
+    grid-template-areas:
+      ". title ."
+      ". subtitle ."
+      "image image image";
   }
 }
 
 @media (max-width: 767px) {
   .lead {
     grid-template-columns: 16px 288px 16px;
-  }
   }
 }
