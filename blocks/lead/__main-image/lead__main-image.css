@@ -1,37 +1,6 @@
 .lead__main-image {
-  border: 1px solid  blue;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   aspect-ratio: 8/5;
-  max-width: 984px;
-}
-
-@media (max-width: 1024px) {
-  .lead__main-image {
-    max-width: 928px;
-  }
-}
-
-@media (max-width: 950px) {
-  .lead__main-image {
-    max-width: 768px;
-  }
-}
-
-@media (max-width: 732px) {
-  .lead__main-image {
-    max-width: 630px;
-  }
-}
-
-@media (max-width: 565px) {
-  .lead__main-image {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 320px) {
-  .lead__main-image {
-    max-width: 320px;
-  }
+  max-width: 100%;
 }

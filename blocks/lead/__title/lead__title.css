@@ -1,15 +1,15 @@
 .lead__title {
-  border: 1px solid grey;
   text-align: center;
-  margin: 0 auto;
-  padding: 0 0 32px;
+  padding: 0;
+  margin: 0;
   font-style: normal;
   font-weight: 900;
   font-size: 6rem;
   line-height: 1.04em;
   max-width: 720px;
+  grid-area: title;
 }
-@media (max-width: 732px) {
+@media (max-width: 760px) {
   .lead__title {
     max-width: 100%;
     padding-bottom: 16px;

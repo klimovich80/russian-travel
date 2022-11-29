@@ -1,5 +1,6 @@
 .lead__image {
-  border: 1px solid green;
   margin: 0;
   padding: 0;
+  max-width: 100%;
+  grid-area: image;
 }
