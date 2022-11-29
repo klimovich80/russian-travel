@@ -1,21 +1,27 @@
 .intro {
   font-family: "Inter", Arial, sans-serif;
-  max-width: 984px;
   margin: 0;
   padding: 0;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: 690px;
+  grid-template-columns: 100px 690px;
+  grid-template-areas: ". info";
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   .intro {
-    grid-template-columns: 720px;
-    justify-content: center;
+    grid-template-columns: 48px 690px;
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .intro {
-    grid-template-columns: 288px;
+    grid-template-columns: 24px 720px;
+  }
+}
+
+@media (max-width: 700px) {
+  .intro {
+    grid-template-columns: 16px 288px;
   }
 }
