@@ -11,13 +11,13 @@
   --text-color_bright: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .root {
     padding: 28px 24px 24px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .root {
     padding: 16px 16px 24px;
   }
