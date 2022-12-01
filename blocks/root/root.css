@@ -8,7 +8,6 @@
   font-family: "Inter", Arial, sans-serif;
   --background-color_dark: #2a2c2f;
   --text-color_bright: #fff;
-  overflow-x: hidden;
 }
 
 @media (max-width: 1023px) {
