@@ -1,17 +1,16 @@
 .lead__title {
   text-align: center;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   font-style: normal;
   font-weight: 900;
   font-size: 6rem;
   line-height: 1.04em;
   max-width: 720px;
-  grid-area: title;
 }
-@media (max-width: 760px) {
+@media (max-width: 750px) {
   .lead__title {
-    max-width: 100%;
+    max-width: 288px;
     font-size: 2.5rem;
     line-height: 1.1em;
   }

@@ -4,20 +4,8 @@
   color: var(--text-color_bright);
   max-width: 1280px;
   margin: 0 auto;
-  padding: 28px 48px 24px;
+  padding: 0;
   font-family: "Inter", Arial, sans-serif;
   --background-color_dark: #2a2c2f;
   --text-color_bright: #fff;
-}
-
-@media (max-width: 1023px) {
-  .root {
-    padding: 28px 24px 24px;
-  }
-}
-
-@media (max-width: 767px) {
-  .root {
-    padding: 16px 16px 24px;
-  }
 }
