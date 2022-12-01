@@ -1,19 +1,21 @@
 .main {
+  /* border: 1px solid blue;   */
   margin: 0;
   padding: 0;
   display: grid;
   justify-content: center;
-  gap: 92px;
+  column-gap: 0;
+  row-gap: 92px;
 }
 
 @media (max-width: 1023px) {
   .main {
-    gap: 88px;
+    row-gap: 88px;
   }
 }
 
 @media (max-width: 767px) {
   .main {
-    gap: 64px;
+    row-gap: 64px;
   }
 }

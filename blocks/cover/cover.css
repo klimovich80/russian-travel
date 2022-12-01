@@ -11,6 +11,7 @@
   aspect-ratio: 8/5;
   display: grid;
   grid-template-columns: 1184px;
+  column-gap: 0;
 }
 
 @media (max-width: 1279px) {
