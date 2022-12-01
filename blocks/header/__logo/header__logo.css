@@ -6,7 +6,7 @@
   background: url(../../../images/logo.svg) 0 0 no-repeat;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .header__logo {
     width: 142px;
     aspect-ratio: 71/21;
