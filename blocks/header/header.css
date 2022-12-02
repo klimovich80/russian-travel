@@ -8,7 +8,7 @@
 
 @media (max-width: 1024px) {
   .header {
-    scroll-padding-bottom: 48px;
+    padding-bottom: 48px;
   }
 }
 

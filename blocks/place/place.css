@@ -33,14 +33,15 @@
 
 @media (max-width: 767px) {
   .place {
-    grid-template-columns: 8px 288px 8px;
+    grid-template-columns: 320px;
     grid-template-areas:
-      ". title ."
-      ". website ."
-      "image image image"
-      ". paragraph .";
+      "title"
+      "website"
+      "image"
+      "paragraph";
     -moz-column-gap: 0;
     column-gap: 0;
     row-gap: 32px;
   }
 }
+
