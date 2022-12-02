@@ -39,8 +39,6 @@
       "website"
       "image"
       "paragraph";
-    -moz-column-gap: 0;
-    column-gap: 0;
     row-gap: 32px;
   }
 }
